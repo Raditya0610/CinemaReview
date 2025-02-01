@@ -5,7 +5,7 @@
 
 @section('content')
 <h2>{{$film_title}} Reviews</h2>
-<a href="{{ url("/films/$film_id/review/create") }}" class="btn btn-primary mb-2">Add Review</a>
+<a href="{{ url("/films/$film_id/reviews/create") }}" class="btn btn-primary mb-2">Add Review</a>
 
 @if(session('success'))
     <div class="alert alert-success">{{ session('success') }}</div>

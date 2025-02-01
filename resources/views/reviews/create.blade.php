@@ -5,7 +5,7 @@
 
 @section('content')
 <h2>Add Review</h2>
-    <form action="{{ url("/films/$film_id/review") }}" method="POST">
+    <form action="{{ url("/films/$film_id/reviews") }}" method="POST">
         @csrf
         <div class="form-group">
             <label>Review Content</label>
