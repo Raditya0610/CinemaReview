@@ -7,7 +7,7 @@
 <div class="container mt-4">
     <h2>Edit Genre</h2>
 
-    <form action="/cast/{{ $genre->id }}" method="POST">
+    <form action="/genre/{{ $genre->id }}" method="POST">
         @csrf
         @method('PUT')
         <div class="form-group">
